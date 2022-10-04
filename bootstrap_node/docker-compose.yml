@@ -1,0 +1,9 @@
+services:
+  node-web-app-numerique-responsable:
+    build: .
+    environment:
+      LOGIN_API_RTE: TODO
+      PASSWORD_API_RTE: TODO
+    ports:
+      - 3000:3000
+
