@@ -1,0 +1,8 @@
+services:
+  python-web-app-numerique-responsable:
+    build: .
+    environment:
+      LOGIN_API_RTE: TODO
+      PASSWORD_API_RTE: TODO
+    ports:
+      - 5000:5000
